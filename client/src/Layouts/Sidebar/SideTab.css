@@ -1,0 +1,40 @@
+.side{
+    display: flex;
+    cursor: pointer;
+    border-radius: 30px;
+    justify-content: left;
+    flex-direction: row;
+    padding: 0px;
+    margin-top: 10px;
+    color: #E7E9EA;
+  }
+  /* .side:hover{
+    background-color: #181818;
+    color: #E7E9EA;
+    transition: color 100ms ease-out;
+  } */
+  .side > h2{
+    font-weight: 700;
+    font-size: 22px;
+    margin-right: 20px;
+    color: #E7E9EA;
+  }
+  .option{
+    display: flex;
+    cursor: pointer;
+    border-radius: 20px;
+    justify-content: left;
+    flex-direction: row;
+  padding-left: 0px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+    color: #E7E9EA;
+  }
+  .option:hover{
+    background-color: #181818;
+    color: #E7E9EA;
+    transition: color 100ms ease-out;
+  }
+ 

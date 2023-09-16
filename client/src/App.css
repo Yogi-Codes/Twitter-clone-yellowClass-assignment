@@ -1,0 +1,111 @@
+.MainPage {
+    display: flex;
+    flex-direction: row;
+    height:100dvh;   
+    width:100dvw;
+    overflow: hidden;
+    
+}
+
+.Contents {
+    /* border:2px solid maroon; */
+    display:flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.MainContent {
+    flex:3;
+}
+
+#WhatsNew{
+    flex:4;
+}
+/* Thin black scrollbar track */
+::-webkit-scrollbar {
+    width: 8px; /* Adjust the width as needed */
+    background-color: black;
+  }
+  
+  /* Black scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 4px; /* Adjust the border-radius as needed */
+  }
+  
+  /* Optional: Hover styles for the thumb */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #333; /* Change color on hover if desired */
+  }
+
+
+.SidebarContainer{
+    /* border:2px solid purple; */
+    padding:1% 1% 1% 10%;
+
+}
+  
+  
+.SidebarMain {
+    /* padding: 20px 20px 0 70px; */
+    /* border-right: 1px solid white; */
+    /* border:"2px solid yellow"; */
+    /* min-width: 200px; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    /* flex: 0 0 auto; */
+    overflow-y: scroll;
+    justify-content: space-between;
+    align-items: left;
+}
+
+.Links {
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width:fit-content;
+    /* margin-left: 25%; */
+    justify-content: space-evenly;
+ 
+}
+
+.SideTabMain {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    /* width: 50%; */
+    
+}
+
+#TabText {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#PostButton{
+    display:none;
+}
+
+@media only screen and (max-width: 800px) {
+    #TabText {
+        display: none;
+    }
+
+    .SidebarContainer{
+        /* border:2px solid purple; */
+        padding:1% 0 1% 1%;
+    }
+    #PostButton{
+        display:block;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    #WhatsNew {
+        display:none;
+    }
+}

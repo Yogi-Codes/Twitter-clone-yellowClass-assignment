@@ -1,0 +1,104 @@
+/* Navbar.css */
+
+/* Navbar container */
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 10px 0px 0px;
+    margin: 0%;
+    background-color: #000; 
+    color: #fff; 
+    width: 600px;
+    max-width: 40vw;
+    height: 120px;
+    opacity: 90%;
+    min-width: 600px;
+    border: 1px solid #2F3336;
+   
+  }
+  @media (max-width: 1250px) {
+    .navbar-container {
+   margin-left: 20px;
+   min-width: 600px;
+   overflow-x: auto;
+   
+    }
+  }
+  
+  /* Twitter logo */
+  .logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  /* Menu container */
+  /* .menu-container {
+    flex-grow: 1;
+    margin: 0 20px;
+    
+  } */
+  
+  
+  .menu-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .menu-header h2 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  /* Search container */
+  .search-container {
+    position: relative;
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #fff; /* Search icon color */
+  }
+  
+  .search-input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff; /* Search input border color */
+    padding: 5px 30px 5px 30px; /* Adjust padding as needed */
+    color: #fff; /* Text color */
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  /* Star icon (assuming you have the appropriate icon font) */
+  .star-icon {
+    font-size: 24px;
+    margin-left: 10px;
+    color: #fff; /* Star icon color */
+  }
+  .titleTop{
+    margin-left: 65;
+    position: relative;
+
+
+}
+.nav{
+  width: 100vw;
+  background-color: #000;
+  height: 120px;
+}
+@media (max-width: 1250px) {
+ .tab{
+  width: 150px;
+ }
+}
+.tab{
+  width: 290px;
+}

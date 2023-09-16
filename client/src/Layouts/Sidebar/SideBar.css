@@ -1,0 +1,30 @@
+/* Default styles for the sidebar */
+.sidebar {
+  width: 100%;
+  max-width: 30vw;
+  padding: 20px 20px;
+  justify-content: right;
+  display: flex;
+  box-shadow: 0.3px 0 0 hsl(210, 14%, 90%);
+  height: 100vh;
+  min-height: 1000px;
+  background-color: black;
+}
+@media (max-width: 1250px) {
+  .sidebar {
+ display: none;
+  }
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .sidebar {
+      max-width: 100%; /* Occupy full width on smaller screens */
+  }
+}
+
+/* Additional styles for .tabs if needed */
+.tabs {
+  max-width: 250px;
+  width: 20vw;
+}

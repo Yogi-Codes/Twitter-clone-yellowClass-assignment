@@ -1,0 +1,46 @@
+.ProfileMain{
+    height:100%;
+}
+.Cover {
+    width: 100%;
+    height: 27%;
+    background-color: #101010; /* You can change this color to your preference */
+    position: relative;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.ProfilePic {
+    width: 150px;
+    height: 150px;
+    background-color: #e74c3c; /* You can change this color too */
+    border-radius: 50%;
+    position: absolute;
+    top: calc(100% - 75px);
+    left: calc(100px);
+    transform: translateX(-50%);
+    border:4px solid black;
+}
+
+/* .ProfileFollow {
+    top: calc(100% - 75px);
+} */
+
+#postBut {
+    width: 200px;
+    height: 50px;
+    background-color: #1D9BF0; /* You can change this color too */
+    border-radius: 20px;
+    position: absolute;
+    top: calc(100% - 25px);
+    left: calc(350px);
+    transform: translateX(-50%);
+    border:4px solid black;
+
+}
+
+.Name{
+    margin-left: 15px;
+}

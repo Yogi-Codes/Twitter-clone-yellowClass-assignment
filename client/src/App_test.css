@@ -1,0 +1,76 @@
+.MainPage {
+    display: flex;
+    flex-direction: row;
+    height:100dvh;   
+    border: 1px solid purple;
+    overflow: hidden;
+}
+
+.Contents {
+    flex-grow: 1;
+    border:2px solid maroon;
+    display:flex;
+    flex-direction: row;
+}
+
+.MainContent {
+    flex:3;
+}
+
+#WhatsNew{
+    flex:4;
+}
+
+.SidebarMain {
+    padding: 20px 20px 0 70px;
+    border: 2px solid yellow;
+    min-width: 200px;
+    height: 100%;
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 0 0 auto;
+}
+
+.Links {
+    border: 2px solid purple;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: space-evenly;
+}
+
+.SideTabMain {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+#TabText {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 800px) {
+    #TabText {
+        display: none;
+    }
+
+    .SidebarMain {
+        min-width: 0px;
+        padding: 4px 4px 0 4px;
+        width: fit-content;
+    }
+
+    /* #WhatsNew {
+        display:none;
+    } */
+}
+
+@media only screen and (max-width: 1100px) {
+    #WhatsNew {
+        display:none;
+    }
+}
